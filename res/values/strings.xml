@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">AndroSAT</string>
+    <string name="title_activity_main">AndroSAT</string>
+    <string name="launchBtnTxt">Go!</string>
+    <string name="debug">Debug</string>
+
+</resources>
