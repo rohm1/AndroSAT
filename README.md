@@ -7,7 +7,7 @@ A port of MiniSat to Android
 Simply copy the ```libs``` folder to your project, and add the ```AndroSAT``` class and ```AndroSATListener```
 interface to the ```org.rohm1.androsat``` package. It is very important that you respect this package name,
 otherwise the MiniSat library won't be found. If you want to import it to your own package, edit ```jni/core/Main.cc```
-appropriately.
+appropriately. You'll have to recompile MiniSat with the Android NDK.
 
 ##License##
 Copyright (c) 2012, rohm1 <rp@rohm1.com>.
