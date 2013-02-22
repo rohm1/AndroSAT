@@ -9,6 +9,8 @@ interface to the ```org.rohm1.androsat``` package. It is very important that you
 otherwise the MiniSat library won't be found. If you want to import it to your own package, edit ```jni/core/Main.cc```
 appropriately. You'll have to recompile MiniSat with the Android NDK.
 
+Please refer to the exemple activity to know how to use AndroSAT, and to AndroSAT.java javadoc.
+
 ##License##
 Copyright (c) 2012, rohm1 <rp@rohm1.com>.
 All rights reserved.
